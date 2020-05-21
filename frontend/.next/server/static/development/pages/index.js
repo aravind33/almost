@@ -386,7 +386,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
 /* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
 /* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__);
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Header.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -460,6 +460,9 @@ const Header = () => {
       cursor: 'pointer'
     },
     className: "font-weight-bold",
+    style: {
+      fontFamily: "edo"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -467,6 +470,7 @@ const Header = () => {
       columnNumber: 11
     }
   }, _config__WEBPACK_IMPORTED_MODULE_5__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+    className: "hamburger",
     onClick: toggle,
     __self: undefined,
     __source: {
@@ -602,7 +606,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     __self: undefined,
     __source: {
@@ -627,7 +633,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: ' edo'
     },
     __self: undefined,
     __source: {
@@ -644,7 +652,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     onClick: () => Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["signout"])(() => next_router__WEBPACK_IMPORTED_MODULE_3___default.a.replace(`/signin`)),
     __self: undefined,
@@ -679,7 +689,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Layout.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -724,7 +734,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_render_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-render-html */ "react-render-html");
 /* harmony import */ var react_render_html__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_render_html__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _actions_blog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../actions/blog */ "./actions/blog.js");
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\blog\\Search.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/blog/Search.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2643,6 +2653,505 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./pages/aboutus/index.js":
+/*!********************************!*\
+  !*** ./pages/aboutus/index.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles2.css */ "./pages/aboutus/styles2.css");
+/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles2_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-social-icons */ "react-social-icons");
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/aboutus/index.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+
+
+const aboutus = () => {
+  return __jsx("div", {
+    className: "outer",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "wrapper2",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 13
+    }
+  }), __jsx("h2", {
+    className: "h2",
+    style: {
+      fontWeight: "bolder"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 12
+    }
+  }, " ", __jsx("center", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 62
+    }
+  }, "ABOUT THE DEVELOPERS"), " "), __jsx("div", {
+    className: "content",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 12
+    }
+  }, __jsx("h3", {
+    style: {
+      fontWeight: "bold"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 16
+    }
+  }, "Talk with us! We don't just build sites, we also build long-term relationship.", __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 94
+    }
+  }), "Collaborate with us today!"))), __jsx("div", {
+    className: "crd",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    class: "row",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 18
+    }
+  }, __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 34
+    }
+  }, __jsx("div", {
+    class: "card",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 39
+    }
+  }, "Babu Aravind"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 41
+    }
+  }, "Developer"), __jsx("div", {
+    id: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 41
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/aravindguru33",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 49
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/babuaravind-gururaj-746a9415a/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 49
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/aravind.33",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 49
+    }
+  })))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    class: "card",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 29
+    }
+  }, "Kashyab"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/kashyab_19",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/kashyab-m-38a440126/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/kashyab_19",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    class: "card",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 29
+    }
+  }, "Sanjay"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/sanjay10898",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "http://linkedin.com/in/sanjay-kumar-b2b43a182",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/sanjaykumar10898/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    class: "card",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 29
+    }
+  }, "Saran Raj"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "http://twitter.com/s_saran_raj",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/saran-raj-70a030119",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/saranraj_sridhar/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    class: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    class: "card",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 29
+    }
+  }, "Praveen"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 29
+    }
+  }, "Product Manager"), __jsx("div", {
+    id: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/Praveen00511731",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/praveen-kumar-r-43393815b",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/praveen_spear",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 29
+    }
+  })))))), __jsx("div", {
+    id: "waultologo",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 13
+    }
+  }, __jsx("center", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 17
+    }
+  }, "Contact Us At"), __jsx("div", {
+    className: "waulto-contacts",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
+      columnNumber: 17
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/company/waulto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 17
+    }
+  }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/Waulto1",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 17
+    }
+  }), __jsx("a", {
+    href: "mailto:waulto.ed@gmail.com",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 17
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    network: "mailto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 54
+    }
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (aboutus);
+
+/***/ }),
+
+/***/ "./pages/aboutus/styles2.css":
+/*!***********************************!*\
+  !*** ./pages/aboutus/styles2.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -2659,8 +3168,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-social-icons */ "react-social-icons");
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\pages\\index.js";
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_payment_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-payment-icons */ "react-payment-icons");
+/* harmony import */ var react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_payment_icons__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _aboutus_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./aboutus/index */ "./pages/aboutus/index.js");
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-grid-system */ "react-grid-system");
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_grid_system__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
 
 
 
@@ -2668,12 +3185,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 var QRCode = __webpack_require__(/*! qrcode.react */ "qrcode.react");
 
+
+
+
+
 const Index = () => {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 14,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2681,7 +3202,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 15,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2689,7 +3210,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 16,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -2698,7 +3219,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 17,
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -2706,7 +3227,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 18,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2714,49 +3235,147 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 19,
       columnNumber: 25
     }
-  }, "Scan the QR to Donate", __jsx("div", {
+  }, __jsx("div", {
+    style: {
+      fontWeight: "bolder",
+      fontSize: "18px",
+      marginTop: ".2vh"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 28
+    }
+  }, " Scan the QR or Click Button to Donate "), __jsx("div", {
     className: "text",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 21,
       columnNumber: 29
     }
   }, __jsx(QRCode, {
-    value: "http://facebook.github.io/react/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 33
-    }
-  })))), __jsx("div", {
-    className: "footer",
+    value: "https://www.instamojo.com/@almosteverything/",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 21
+      columnNumber: 33
     }
-  }, __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    id: "footer-text",
+  })), __jsx("div", {
+    style: {
+      paddingTop: "5vh"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
       columnNumber: 29
     }
-  }, "Visit Us:"), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    style: {
+      fontWeight: "bolder"
+    },
+    href: "https://www.instamojo.com/@almosteverything/",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 33
+    }
+  }, "Donate us!"), __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 33
+    }
+  }, __jsx("img", {
+    className: "payment",
+    src: "/payment.png",
+    style: {
+      marginTop: "2vh"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 37
+    }
+  }), __jsx(react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    id: "visa",
+    style: {
+      margin: 10,
+      width: 40
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 37
+    }
+  }), __jsx(react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    id: "mastercard",
+    style: {
+      margin: 10,
+      width: 40
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 37
+    }
+  }))))), __jsx("div", {
+    className: "footer",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 25
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Row"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 29
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Col"], {
+    md: 10,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "footer-text",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 37
+    }
+  }, "AlmostEverything:"), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.youtube.com/almost-everything",
     fgColor: "white",
     bgColor: "black",
@@ -2764,8 +3383,8 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 29
+      lineNumber: 46,
+      columnNumber: 37
     }
   }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.instagram.com/_almost.everything/?hl=en",
@@ -2775,8 +3394,8 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 29
+      lineNumber: 47,
+      columnNumber: 37
     }
   }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.facebook.com/pages/category/Education-Website/Almost-Everything-356325994970583/",
@@ -2786,10 +3405,87 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 29
+      lineNumber: 48,
+      columnNumber: 37
     }
-  }))))));
+  }), __jsx("a", {
+    href: "mailto:queries.almosteverything@gmail.com",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 37
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    network: "mailto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 89
+    }
+  }))), __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Col"], {
+    md: 2,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "footer-dev",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "./aboutus",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 41
+    }
+  }, "Developed By: ")), __jsx("div", {
+    className: "footerwaulto",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 37
+    }
+  }, __jsx("center", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 41
+    }
+  }, __jsx("a", {
+    href: "./aboutus",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 49
+    }
+  }, __jsx("img", {
+    src: "/waulto.jpg",
+    alt: "W A U L T O",
+    width: "100",
+    height: "40",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 71
+    }
+  }))))))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -2814,7 +3510,7 @@ const Index = () => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\1.1.waulto\fintouch\Almost-Everything-master\frontend\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -2929,6 +3625,28 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ "react-grid-system":
+/*!************************************!*\
+  !*** external "react-grid-system" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-grid-system");
+
+/***/ }),
+
 /***/ "react-image":
 /*!******************************!*\
   !*** external "react-image" ***!
@@ -2948,6 +3666,17 @@ module.exports = require("react-image");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "react-payment-icons":
+/*!**************************************!*\
+  !*** external "react-payment-icons" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-payment-icons");
 
 /***/ }),
 

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./actions/auth.js":
 /*!*************************!*\
@@ -302,28 +302,31 @@ var listSearch = function listSearch(params) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config */ "./config.js");
-/* harmony import */ var _actions_auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../actions/auth */ "./actions/auth.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! .././node_modules/nprogress/nprogress.css */ "./node_modules/nprogress/nprogress.css");
-/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
-/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
-/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__);
-var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Header.js";
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../config */ "./config.js");
+/* harmony import */ var _actions_auth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../actions/auth */ "./actions/auth.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! .././node_modules/nprogress/nprogress.css */ "./node_modules/nprogress/nprogress.css");
+/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
+/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
+/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_11__);
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var _this = undefined,
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Header.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
@@ -338,20 +341,22 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeStart = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.start();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeStart = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.start();
 };
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeComplete = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeComplete = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.done();
 };
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeError = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.done();
 };
 
 var Header = function Header() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+  var _jsx;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
       isOpen = _useState[0],
       setIsOpen = _useState[1];
 
@@ -359,14 +364,14 @@ var Header = function Header() {
     setIsOpen(!isOpen);
   };
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 5
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Navbar"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Navbar"], {
     id: "header1",
     color: "dark",
     light: true,
@@ -388,7 +393,7 @@ var Header = function Header() {
       lineNumber: 38,
       columnNumber: 7
     }
-  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __self: _this,
     __source: {
@@ -396,18 +401,19 @@ var Header = function Header() {
       lineNumber: 39,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], (_jsx = {
     style: {
       cursor: 'pointer'
     },
-    className: "font-weight-bold",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 11
-    }
-  }, _config__WEBPACK_IMPORTED_MODULE_5__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+    className: "font-weight-bold"
+  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "style", {
+    fontFamily: "edo"
+  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", _this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
+    fileName: _jsxFileName,
+    lineNumber: 40,
+    columnNumber: 11
+  }), _jsx), _config__WEBPACK_IMPORTED_MODULE_6__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavbarToggler"], {
+    className: "hamburger",
     onClick: toggle,
     __self: _this,
     __source: {
@@ -415,7 +421,7 @@ var Header = function Header() {
       lineNumber: 42,
       columnNumber: 9
     }
-  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Collapse"], {
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Collapse"], {
     className: "collapse",
     isOpen: isOpen,
     navbar: true,
@@ -425,7 +431,7 @@ var Header = function Header() {
       lineNumber: 43,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Nav"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
     className: "ml-auto",
     navbar: true,
     __self: _this,
@@ -434,21 +440,21 @@ var Header = function Header() {
       lineNumber: 44,
       columnNumber: 11
     }
-  }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  }, __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/blogs",
     __self: _this,
     __source: {
@@ -456,7 +462,7 @@ var Header = function Header() {
       lineNumber: 47,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -467,21 +473,21 @@ var Header = function Header() {
       lineNumber: 48,
       columnNumber: 19
     }
-  }, "Blogs")))), !Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  }, "Blogs")))), !Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54,
       columnNumber: 15
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55,
       columnNumber: 17
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/signin",
     __self: _this,
     __source: {
@@ -489,7 +495,7 @@ var Header = function Header() {
       lineNumber: 56,
       columnNumber: 19
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -500,14 +506,14 @@ var Header = function Header() {
       lineNumber: 57,
       columnNumber: 21
     }
-  }, "Signin"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "Signin"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60,
       columnNumber: 17
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/signup",
     __self: _this,
     __source: {
@@ -515,7 +521,7 @@ var Header = function Header() {
       lineNumber: 61,
       columnNumber: 19
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -526,14 +532,14 @@ var Header = function Header() {
       lineNumber: 62,
       columnNumber: 21
     }
-  }, "Signup")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().role === 0 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "Signup")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().role === 0 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/user",
     __self: _this,
     __source: {
@@ -541,9 +547,11 @@ var Header = function Header() {
       lineNumber: 70,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     __self: _this,
     __source: {
@@ -551,14 +559,14 @@ var Header = function Header() {
       lineNumber: 71,
       columnNumber: 19
     }
-  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().role === 1 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().role === 1 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/admin",
     __self: _this,
     __source: {
@@ -566,9 +574,11 @@ var Header = function Header() {
       lineNumber: 78,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: ' edo'
     },
     __self: _this,
     __source: {
@@ -576,20 +586,22 @@ var Header = function Header() {
       lineNumber: 79,
       columnNumber: 19
     }
-  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85,
       columnNumber: 15
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     onClick: function onClick() {
-      return Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["signout"])(function () {
-        return next_router__WEBPACK_IMPORTED_MODULE_3___default.a.replace("/signin");
+      return Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["signout"])(function () {
+        return next_router__WEBPACK_IMPORTED_MODULE_4___default.a.replace("/signin");
       });
     },
     __self: _this,
@@ -598,7 +610,7 @@ var Header = function Header() {
       lineNumber: 86,
       columnNumber: 17
     }
-  }, "Signout"))))), __jsx(_blog_Search__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, "Signout"))))), __jsx(_blog_Search__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -625,7 +637,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Layout.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -674,7 +686,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\blog\\Search.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/blog/Search.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -5743,12 +5755,12 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -5764,10 +5776,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Cindex.js&hotRouterUpdates=true!./":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Findex.js&hotRouterUpdates=true!./":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Findex.js&hotRouterUpdates=true ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20504,12 +20516,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -21144,12 +21156,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -24007,12 +24019,1401 @@ module.exports.convert = convert;
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react-dom/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/config.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-grid-system/build/config.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.setConfiguration = exports.getConfiguration = void 0;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var configuration = {
+  breakpoints: [576, 768, 992, 1200],
+  containerWidths: [540, 750, 960, 1140],
+  gutterWidth: 30,
+  gridColumns: 12,
+  defaultScreenClass: 'xl'
+};
+
+var getConfiguration = function getConfiguration() {
+  return configuration;
+};
+
+exports.getConfiguration = getConfiguration;
+
+var setConfiguration = function setConfiguration(newConfiguration) {
+  configuration = _objectSpread({}, configuration, {}, newConfiguration);
+};
+
+exports.setConfiguration = setConfiguration;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.ScreenClassContext = exports.NO_PROVIDER_FLAG = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _utils = __webpack_require__(/*! ../../utils */ "./node_modules/react-grid-system/build/utils.js");
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var NO_PROVIDER_FLAG = 'NO_PROVIDER_FLAG';
+exports.NO_PROVIDER_FLAG = NO_PROVIDER_FLAG;
+
+var ScreenClassContext = _react.default.createContext(NO_PROVIDER_FLAG);
+
+exports.ScreenClassContext = ScreenClassContext;
+
+var ScreenClassProvider = function ScreenClassProvider(_ref) {
+  var useOwnWidth = _ref.useOwnWidth,
+      children = _ref.children,
+      fallbackScreenClass = _ref.fallbackScreenClass;
+  var screenClassRef = (0, _react.useRef)();
+
+  var _useState = (0, _react.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      mounted = _useState2[0],
+      setMounted = _useState2[1];
+
+  var detectedScreenClass = (0, _utils.useScreenClass)(screenClassRef, fallbackScreenClass);
+
+  var _getConfiguration = (0, _config.getConfiguration)(),
+      defaultScreenClass = _getConfiguration.defaultScreenClass;
+
+  var screenClass = mounted ? detectedScreenClass : fallbackScreenClass || defaultScreenClass;
+  (0, _react.useEffect)(function () {
+    return setMounted(true);
+  }, []);
+  return _react.default.createElement(ScreenClassContext.Provider, {
+    value: screenClass
+  }, useOwnWidth ? _react.default.createElement("div", {
+    ref: useOwnWidth ? screenClassRef : null
+  }, children) : _react.default.createElement(_react.default.Fragment, null, children));
+};
+
+ScreenClassProvider.propTypes = {
+  /**
+   * Children of the ScreenClassProvider.
+   * This should be all your child React nodes that are using `react-grid-system`.
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * Boolean to determine whether own width should be used as source.
+   * When provided, the screen class is derived from own dimensions instead of the window.
+   */
+  useOwnWidth: _propTypes.default.bool,
+
+  /**
+   * Screen class to use when it cannot be determined otherwise.
+   * Useful for server side rendering.
+   */
+  fallbackScreenClass: _propTypes.default.oneOf([null, 'xs', 'sm', 'md', 'lg', 'xl'])
+};
+ScreenClassProvider.defaultProps = {
+  useOwnWidth: false,
+  fallbackScreenClass: null
+};
+var _default = ScreenClassProvider;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ScreenClassProvider = _interopRequireWildcard(__webpack_require__(/*! ../ScreenClassProvider */ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ScreenClassResolver = function ScreenClassResolver(_ref) {
+  var children = _ref.children;
+  return _react.default.createElement(_ScreenClassProvider.ScreenClassContext.Consumer, null, function (screenClassCheck) {
+    if (screenClassCheck === _ScreenClassProvider.NO_PROVIDER_FLAG) {
+      return _react.default.createElement(_ScreenClassProvider.default, null, _react.default.createElement(_ScreenClassProvider.ScreenClassContext.Consumer, null, function (screenClassResolved) {
+        return children(screenClassResolved);
+      }));
+    }
+
+    return children(screenClassCheck);
+  });
+};
+
+ScreenClassResolver.propTypes = {
+  children: _propTypes.default.func.isRequired
+};
+var _default = ScreenClassResolver;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Col/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Col/index.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _style = _interopRequireDefault(__webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Col/style.js"));
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+var _Row = __webpack_require__(/*! ../Row */ "./node_modules/react-grid-system/build/grid/Row/index.js");
+
+var _ScreenClassResolver = _interopRequireDefault(__webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var Col = function Col(_ref) {
+  var children = _ref.children,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl,
+      offset = _ref.offset,
+      pull = _ref.pull,
+      push = _ref.push,
+      debug = _ref.debug,
+      style = _ref.style,
+      component = _ref.component,
+      width = _ref.width,
+      otherProps = _objectWithoutProperties(_ref, ["children", "xs", "sm", "md", "lg", "xl", "offset", "pull", "push", "debug", "style", "component", "width"]);
+
+  return _react.default.createElement(_ScreenClassResolver.default, null, function (screenClass) {
+    return _react.default.createElement(_Row.GutterWidthContext.Consumer, null, function (gutterWidth) {
+      var theStyle = (0, _style.default)({
+        forceWidth: width,
+        width: {
+          xs: xs,
+          sm: sm,
+          md: md,
+          lg: lg,
+          xl: xl
+        },
+        offset: offset,
+        pull: pull,
+        push: push,
+        debug: debug,
+        screenClass: screenClass,
+        gutterWidth: gutterWidth,
+        gridColumns: (0, _config.getConfiguration)().gridColumns,
+        moreStyle: style
+      });
+      return (0, _react.createElement)(component, _objectSpread({
+        style: theStyle
+      }, otherProps, {
+        children: children
+      }));
+    });
+  });
+};
+
+Col.propTypes = {
+  /**
+   * Content of the column
+   */
+  children: _propTypes.default.node,
+
+  /**
+   * The width of the column for screenclass `xs`, either a number between 0 and 12, or "content"
+   */
+  xs: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['content'])]),
+
+  /**
+   * The width of the column for screenclass `sm`, either a number between 0 and 12, or "content"
+   */
+  sm: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['content'])]),
+
+  /**
+   * The width of the column for screenclass `md`, either a number between 0 and 12, or "content"
+   */
+  md: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['content'])]),
+
+  /**
+   * The width of the column for screenclass `lg`, either a number between 0 and 12, or "content"
+   */
+  lg: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['content'])]),
+
+  /**
+   * The width of the column for screenclass `xl`, either a number between 0 and 12, or "content"
+   */
+  xl: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.oneOf(['content'])]),
+
+  /**
+   * A fixed width of the column for all screenclasses"
+   */
+  width: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string]),
+
+  /**
+   * The offset of this column for all screenclasses
+   */
+  offset: _propTypes.default.shape({
+    xs: _propTypes.default.number,
+    sm: _propTypes.default.number,
+    md: _propTypes.default.number,
+    lg: _propTypes.default.number,
+    xl: _propTypes.default.number
+  }),
+
+  /**
+   * The amount this column is pushed to the right for all screenclasses
+   */
+  push: _propTypes.default.shape({
+    xs: _propTypes.default.number,
+    sm: _propTypes.default.number,
+    md: _propTypes.default.number,
+    lg: _propTypes.default.number,
+    xl: _propTypes.default.number
+  }),
+
+  /**
+   * The amount this column is pulled to the left for all screenclasses
+   */
+  pull: _propTypes.default.shape({
+    xs: _propTypes.default.number,
+    sm: _propTypes.default.number,
+    md: _propTypes.default.number,
+    lg: _propTypes.default.number,
+    xl: _propTypes.default.number
+  }),
+
+  /**
+   * Optional styling
+   */
+  style: _propTypes.default.objectOf(_propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string])),
+
+  /**
+   * Set to apply some debug styling
+   */
+  debug: _propTypes.default.bool,
+
+  /**
+   * Use your own component
+   */
+  component: _propTypes.default.elementType
+};
+Col.defaultProps = {
+  children: null,
+  xs: null,
+  sm: null,
+  md: null,
+  lg: null,
+  xl: null,
+  width: null,
+  offset: {},
+  push: {},
+  pull: {},
+  style: {},
+  debug: false,
+  component: 'div'
+};
+var _default = Col;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Col/style.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Col/style.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _utils = __webpack_require__(/*! ../../utils */ "./node_modules/react-grid-system/build/utils.js");
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var hasWidth = function hasWidth(widths) {
+  return Object.keys(widths).reduce(function (acc, cur) {
+    return acc || widths[cur];
+  }, false);
+};
+
+var getWidth = function getWidth(width, gridColumns) {
+  if (typeof width !== 'number') return undefined;
+  var normalizedWidth = Math.max(0, Math.min(gridColumns, width));
+  return "".concat(100 / gridColumns * normalizedWidth, "%");
+};
+
+var _default = function _default(_ref) {
+  var _ref$forceWidth = _ref.forceWidth,
+      forceWidth = _ref$forceWidth === void 0 ? null : _ref$forceWidth,
+      _ref$width = _ref.width,
+      width = _ref$width === void 0 ? {} : _ref$width,
+      _ref$offset = _ref.offset,
+      offset = _ref$offset === void 0 ? {} : _ref$offset,
+      _ref$pull = _ref.pull,
+      pull = _ref$pull === void 0 ? {} : _ref$pull,
+      _ref$push = _ref.push,
+      push = _ref$push === void 0 ? {} : _ref$push,
+      debug = _ref.debug,
+      screenClass = _ref.screenClass,
+      gutterWidth = _ref.gutterWidth,
+      moreStyle = _ref.moreStyle,
+      gridColumns = _ref.gridColumns;
+  var styles = {
+    boxSizing: 'border-box',
+    minHeight: '1px',
+    position: 'relative',
+    paddingLeft: "".concat(gutterWidth / 2, "px"),
+    paddingRight: "".concat(gutterWidth / 2, "px"),
+    width: '100%'
+  };
+
+  if (debug) {
+    styles.outline = '1px solid silver';
+    styles.background = 'rgba(0,0,0,.05)';
+    styles.lineHeight = '32px';
+  }
+
+  styles.flexBasis = '100%';
+  styles.flexGrow = 0;
+  styles.flexShrink = 0;
+  styles.maxWidth = '100%';
+  styles.marginLeft = '0%';
+  styles.right = 'auto';
+  styles.left = 'auto';
+
+  _utils.screenClasses.forEach(function (size, index) {
+    if (_utils.screenClasses.indexOf(screenClass) >= index) {
+      var currentWidth = getWidth(width[size], gridColumns);
+      var isSizedToContent = width[size] === 'content';
+      styles.flexBasis = isSizedToContent ? 'auto' : currentWidth || styles.flexBasis;
+      styles.width = styles.flexBasis;
+      styles.maxWidth = currentWidth || styles.maxWidth;
+      styles.marginLeft = getWidth(offset[size], gridColumns) || styles.marginLeft;
+      styles.right = getWidth(pull[size], gridColumns) || styles.right;
+      styles.left = getWidth(push[size], gridColumns) || styles.left;
+    }
+  });
+
+  if (!hasWidth(width)) {
+    styles.flexBasis = 0;
+    styles.flexGrow = 1;
+  }
+
+  if (forceWidth) {
+    styles.flex = 'unset';
+    styles.width = forceWidth;
+  }
+
+  return _objectSpread({}, styles, {}, moreStyle);
+};
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Container/index.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Container/index.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _style = _interopRequireWildcard(__webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Container/style.js"));
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+var _ScreenClassResolver = _interopRequireDefault(__webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var Container = function Container(_ref) {
+  var children = _ref.children,
+      fluid = _ref.fluid,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl,
+      style = _ref.style,
+      component = _ref.component,
+      otherProps = _objectWithoutProperties(_ref, ["children", "fluid", "xs", "sm", "md", "lg", "xl", "style", "component"]);
+
+  return _react.default.createElement(_ScreenClassResolver.default, null, function (screenClass) {
+    return (0, _react.createElement)(component, _objectSpread({
+      style: (0, _style.default)({
+        fluid: fluid,
+        xs: xs,
+        sm: sm,
+        md: md,
+        lg: lg,
+        xl: xl,
+        screenClass: screenClass,
+        containerWidths: (0, _config.getConfiguration)().containerWidths,
+        gutterWidth: (0, _config.getConfiguration)().gutterWidth,
+        moreStyle: style
+      })
+    }, otherProps), _react.default.createElement(_react.default.Fragment, null, children, _react.default.createElement("span", {
+      style: (0, _style.getAfterStyle)()
+    })));
+  });
+};
+
+Container.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * True makes the container full-width, false fixed-width
+   */
+  fluid: _propTypes.default.bool,
+
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in xs, not present means fluid everywhere
+   */
+  xs: _propTypes.default.bool,
+
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in sm, not present means fluid everywhere
+   */
+  sm: _propTypes.default.bool,
+
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in md, not present means fluid everywhere
+   */
+  md: _propTypes.default.bool,
+
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in lg, not present means fluid everywhere
+   */
+  lg: _propTypes.default.bool,
+
+  /**
+   * This is in combination with fluid enabled
+   * True makes container fluid only in xl, not present means fluid everywhere
+   */
+  xl: _propTypes.default.bool,
+
+  /**
+   * Optional styling
+   */
+  style: _propTypes.default.objectOf(_propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string])),
+
+  /**
+   * Use your own component
+   */
+  component: _propTypes.default.elementType
+};
+Container.defaultProps = {
+  fluid: false,
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false,
+  style: {},
+  component: 'div'
+};
+var _default = Container;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Container/style.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Container/style.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getAfterStyle = exports.default = void 0;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _default = function _default(_ref) {
+  var fluid = _ref.fluid,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl,
+      screenClass = _ref.screenClass,
+      containerWidths = _ref.containerWidths,
+      gutterWidth = _ref.gutterWidth,
+      moreStyle = _ref.moreStyle;
+  var styles = {
+    boxSizing: 'border-box',
+    position: 'relative',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    paddingLeft: "".concat(gutterWidth / 2, "px"),
+    paddingRight: "".concat(gutterWidth / 2, "px")
+  };
+
+  if (fluid && !sm && !md && !lg && !xl) {
+    return _objectSpread({}, styles, {}, moreStyle);
+  }
+
+  if (screenClass === 'sm' && containerWidths[0] && !sm && !xs) {
+    styles.maxWidth = "".concat(containerWidths[0], "px");
+  }
+
+  if (screenClass === 'md' && containerWidths[1] && !md) {
+    styles.maxWidth = "".concat(containerWidths[1], "px");
+  }
+
+  if (screenClass === 'lg' && containerWidths[2] && !lg) {
+    styles.maxWidth = "".concat(containerWidths[2], "px");
+  }
+
+  if (screenClass === 'xl' && containerWidths[3] && !xl) {
+    styles.maxWidth = "".concat(containerWidths[3], "px");
+  }
+
+  return _objectSpread({}, styles, {}, moreStyle);
+};
+
+exports.default = _default;
+
+var getAfterStyle = function getAfterStyle() {
+  return {
+    display: 'table',
+    clear: 'both'
+  };
+};
+
+exports.getAfterStyle = getAfterStyle;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Row/index.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Row/index.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.GutterWidthContext = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _config = __webpack_require__(/*! ../../config */ "./node_modules/react-grid-system/build/config.js");
+
+var _style = _interopRequireDefault(__webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/grid/Row/style.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var GutterWidthContext = _react.default.createContext(false);
+
+exports.GutterWidthContext = GutterWidthContext;
+
+var Row = function Row(_ref) {
+  var children = _ref.children,
+      style = _ref.style,
+      align = _ref.align,
+      justify = _ref.justify,
+      debug = _ref.debug,
+      nogutter = _ref.nogutter,
+      gutterWidth = _ref.gutterWidth,
+      component = _ref.component,
+      nowrap = _ref.nowrap,
+      otherProps = _objectWithoutProperties(_ref, ["children", "style", "align", "justify", "debug", "nogutter", "gutterWidth", "component", "nowrap"]);
+
+  var theGutterWidth = (0, _config.getConfiguration)().gutterWidth;
+  if (nogutter) theGutterWidth = 0;
+  if (typeof gutterWidth === 'number') theGutterWidth = gutterWidth;
+  var theStyle = (0, _style.default)({
+    gutterWidth: theGutterWidth,
+    align: align,
+    justify: justify,
+    debug: debug,
+    moreStyle: style,
+    nowrap: nowrap
+  });
+  return _react.default.createElement(component, _objectSpread({
+    style: theStyle
+  }, otherProps), _react.default.createElement(GutterWidthContext.Provider, {
+    value: theGutterWidth
+  }, children));
+};
+
+Row.propTypes = {
+  /**
+   * Content of the element
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * Vertical column alignment
+   */
+  align: _propTypes.default.oneOf(['normal', 'start', 'center', 'end', 'stretch']),
+
+  /**
+   * Horizontal column alignment
+   */
+  justify: _propTypes.default.oneOf(['start', 'center', 'end', 'between', 'around', 'initial', 'inherit']),
+
+  /**
+   * No gutter for this row
+   */
+  nogutter: _propTypes.default.bool,
+
+  /**
+   * Custom gutter width for this row
+   */
+  gutterWidth: _propTypes.default.number,
+
+  /**
+   * Optional styling
+   */
+  style: _propTypes.default.objectOf(_propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string])),
+
+  /**
+   * Set to apply some debug styling
+   */
+  debug: _propTypes.default.bool,
+
+  /**
+   * Use your own component
+   */
+  component: _propTypes.default.elementType,
+
+  /**
+   * Whether the cols should not wrap
+   */
+  nowrap: _propTypes.default.bool
+};
+Row.defaultProps = {
+  align: 'normal',
+  justify: 'start',
+  nogutter: false,
+  gutterWidth: null,
+  style: {},
+  debug: false,
+  component: 'div',
+  nowrap: false
+};
+var _default = Row;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/grid/Row/style.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/grid/Row/style.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _default = function _default(_ref) {
+  var gutterWidth = _ref.gutterWidth,
+      align = _ref.align,
+      justify = _ref.justify,
+      debug = _ref.debug,
+      moreStyle = _ref.moreStyle,
+      nowrap = _ref.nowrap;
+  // Vertical alignment
+  var alignItems = align;
+  if (align === 'start') alignItems = 'flex-start';
+  if (align === 'end') alignItems = 'flex-end'; // Horizontal alignment
+
+  var justifyContent = justify;
+  if (justify === 'start') justifyContent = 'flex-start';
+  if (justify === 'end') justifyContent = 'flex-end';
+  if (justify === 'between') justifyContent = 'space-between';
+  if (justify === 'around') justifyContent = 'space-around';
+  if (justify === 'center') justifyContent = 'center';
+  if (justify === 'initial') justifyContent = 'initial';
+  if (justify === 'inherit') justifyContent = 'inherit';
+  var styles = {
+    marginLeft: "-".concat(gutterWidth / 2, "px"),
+    marginRight: "-".concat(gutterWidth / 2, "px"),
+    display: 'flex',
+    flexWrap: nowrap ? 'nowrap' : 'wrap',
+    flexGrow: 0,
+    flexShrink: 0,
+    alignItems: alignItems,
+    justifyContent: justifyContent
+  };
+
+  if (debug) {
+    styles.background = 'rgba(128,128,128,.05)';
+  }
+
+  return _objectSpread({}, styles, {}, moreStyle);
+};
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-grid-system/build/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "Col", {
+  enumerable: true,
+  get: function get() {
+    return _Col.default;
+  }
+});
+Object.defineProperty(exports, "Container", {
+  enumerable: true,
+  get: function get() {
+    return _Container.default;
+  }
+});
+Object.defineProperty(exports, "Row", {
+  enumerable: true,
+  get: function get() {
+    return _Row.default;
+  }
+});
+Object.defineProperty(exports, "Hidden", {
+  enumerable: true,
+  get: function get() {
+    return _Hidden.default;
+  }
+});
+Object.defineProperty(exports, "Visible", {
+  enumerable: true,
+  get: function get() {
+    return _Visible.default;
+  }
+});
+Object.defineProperty(exports, "ScreenClassRender", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenClassRender.default;
+  }
+});
+Object.defineProperty(exports, "ScreenClassProvider", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenClassProvider.default;
+  }
+});
+Object.defineProperty(exports, "ScreenClassContext", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenClassProvider.ScreenClassContext;
+  }
+});
+Object.defineProperty(exports, "setConfiguration", {
+  enumerable: true,
+  get: function get() {
+    return _config.setConfiguration;
+  }
+});
+Object.defineProperty(exports, "useScreenClass", {
+  enumerable: true,
+  get: function get() {
+    return _utils.useScreenClass;
+  }
+});
+
+var _Col = _interopRequireDefault(__webpack_require__(/*! ./grid/Col */ "./node_modules/react-grid-system/build/grid/Col/index.js"));
+
+var _Container = _interopRequireDefault(__webpack_require__(/*! ./grid/Container */ "./node_modules/react-grid-system/build/grid/Container/index.js"));
+
+var _Row = _interopRequireDefault(__webpack_require__(/*! ./grid/Row */ "./node_modules/react-grid-system/build/grid/Row/index.js"));
+
+var _Hidden = _interopRequireDefault(__webpack_require__(/*! ./utilities/Hidden */ "./node_modules/react-grid-system/build/utilities/Hidden/index.js"));
+
+var _Visible = _interopRequireDefault(__webpack_require__(/*! ./utilities/Visible */ "./node_modules/react-grid-system/build/utilities/Visible/index.js"));
+
+var _ScreenClassRender = _interopRequireDefault(__webpack_require__(/*! ./utilities/ScreenClassRender */ "./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js"));
+
+var _ScreenClassProvider = _interopRequireWildcard(__webpack_require__(/*! ./context/ScreenClassProvider */ "./node_modules/react-grid-system/build/context/ScreenClassProvider/index.js"));
+
+var _config = __webpack_require__(/*! ./config */ "./node_modules/react-grid-system/build/config.js");
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/react-grid-system/build/utils.js");
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Hidden/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Hidden/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var style = _interopRequireWildcard(__webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/utilities/Hidden/style.js"));
+
+var _ScreenClassResolver = _interopRequireDefault(__webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Hidden = function Hidden(_ref) {
+  var children = _ref.children,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+  return _react.default.createElement(_ScreenClassResolver.default, null, function (screenClass) {
+    return style.hidden({
+      screenClass: screenClass,
+      xs: xs,
+      sm: sm,
+      md: md,
+      lg: lg,
+      xl: xl
+    }) ? null : children;
+  });
+};
+
+Hidden.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * Hide on extra small devices
+   */
+  xs: _propTypes.default.bool,
+
+  /**
+   * Hide on small devices
+   */
+  sm: _propTypes.default.bool,
+
+  /**
+   * Hide on medium devices
+   */
+  md: _propTypes.default.bool,
+
+  /**
+   * Hide on large devices
+   */
+  lg: _propTypes.default.bool,
+
+  /**
+   * Hide on xlarge devices
+   */
+  xl: _propTypes.default.bool
+};
+Hidden.defaultProps = {
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false
+};
+var _default = Hidden;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Hidden/style.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Hidden/style.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.hidden = void 0;
+
+var hidden = function hidden(_ref) {
+  var screenClass = _ref.screenClass,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+  if (screenClass === 'xl') return xl;
+  if (screenClass === 'lg') return lg;
+  if (screenClass === 'md') return md;
+  if (screenClass === 'sm') return sm;
+  return xs;
+};
+
+exports.hidden = hidden;
+var _default = hidden;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/ScreenClassRender/index.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ScreenClassResolver = _interopRequireDefault(__webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ScreenClassRender = function ScreenClassRender(_ref) {
+  var render = _ref.render;
+  return _react.default.createElement(_ScreenClassResolver.default, null, function (screenClass) {
+    return render(screenClass);
+  });
+};
+
+ScreenClassRender.propTypes = {
+  /**
+   * The function which return value will be rendered.
+   * Will be called with one argument: the screen class.
+   */
+  render: _propTypes.default.func.isRequired
+};
+var _default = ScreenClassRender;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Visible/index.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Visible/index.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var style = _interopRequireWildcard(__webpack_require__(/*! ./style */ "./node_modules/react-grid-system/build/utilities/Visible/style.js"));
+
+var _ScreenClassResolver = _interopRequireDefault(__webpack_require__(/*! ../../context/ScreenClassResolver */ "./node_modules/react-grid-system/build/context/ScreenClassResolver/index.js"));
+
+function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Visible = function Visible(_ref) {
+  var children = _ref.children,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+  return _react.default.createElement(_ScreenClassResolver.default, null, function (screenClass) {
+    return !style.visible({
+      screenClass: screenClass,
+      xs: xs,
+      sm: sm,
+      md: md,
+      lg: lg,
+      xl: xl
+    }) ? null : children;
+  });
+};
+
+Visible.propTypes = {
+  /**
+   * Content of the component
+   */
+  children: _propTypes.default.node.isRequired,
+
+  /**
+   * Show on extra small devices
+   */
+  xs: _propTypes.default.bool,
+
+  /**
+   * Show on small devices
+   */
+  sm: _propTypes.default.bool,
+
+  /**
+   * Show on medium devices
+   */
+  md: _propTypes.default.bool,
+
+  /**
+   * Show on large devices
+   */
+  lg: _propTypes.default.bool,
+
+  /**
+   * Show on xl devices
+   */
+  xl: _propTypes.default.bool
+};
+Visible.defaultProps = {
+  xs: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false
+};
+var _default = Visible;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utilities/Visible/style.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utilities/Visible/style.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.visible = void 0;
+
+var visible = function visible(_ref) {
+  var screenClass = _ref.screenClass,
+      xs = _ref.xs,
+      sm = _ref.sm,
+      md = _ref.md,
+      lg = _ref.lg,
+      xl = _ref.xl;
+  if (screenClass === 'xl') return xl;
+  if (screenClass === 'lg') return lg;
+  if (screenClass === 'md') return md;
+  if (screenClass === 'sm') return sm;
+  return xs;
+};
+
+exports.visible = visible;
+var _default = visible;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-grid-system/build/utils.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-grid-system/build/utils.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.useScreenClass = exports.screenClasses = void 0;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _config = __webpack_require__(/*! ./config */ "./node_modules/react-grid-system/build/config.js");
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var getViewPort = function getViewPort(source) {
+  if (source && source.current && source.current.clientWidth) {
+    return source.current.clientWidth;
+  }
+
+  if (typeof window !== 'undefined' && window.innerWidth) {
+    return window.innerWidth;
+  }
+
+  return null;
+};
+
+var screenClasses = ['xs', 'sm', 'md', 'lg', 'xl'];
+exports.screenClasses = screenClasses;
+
+var useScreenClass = function useScreenClass(source, fallbackScreenClass) {
+  var getScreenClass = function getScreenClass() {
+    var _getConfiguration = (0, _config.getConfiguration)(),
+        breakpoints = _getConfiguration.breakpoints,
+        defaultScreenClass = _getConfiguration.defaultScreenClass;
+
+    var newScreenClass = defaultScreenClass;
+    var viewport = getViewPort(source);
+
+    if (viewport) {
+      newScreenClass = 'xs';
+      if (breakpoints[0] && viewport >= breakpoints[0]) newScreenClass = 'sm';
+      if (breakpoints[1] && viewport >= breakpoints[1]) newScreenClass = 'md';
+      if (breakpoints[2] && viewport >= breakpoints[2]) newScreenClass = 'lg';
+      if (breakpoints[3] && viewport >= breakpoints[3]) newScreenClass = 'xl';
+    } else if (fallbackScreenClass) {
+      newScreenClass = fallbackScreenClass;
+    }
+
+    return newScreenClass;
+  };
+
+  var _useState = (0, _react.useState)(getScreenClass()),
+      _useState2 = _slicedToArray(_useState, 2),
+      screenClass = _useState2[0],
+      setScreenClass = _useState2[1];
+
+  (0, _react.useEffect)(function () {
+    var handleWindowResized = function handleWindowResized() {
+      return setScreenClass(getScreenClass());
+    };
+
+    window.addEventListener('resize', handleWindowResized, false);
+    return function () {
+      window.removeEventListener('resize', handleWindowResized, false);
+    };
+  }, []);
+  return screenClass;
+};
+
+exports.useScreenClass = useScreenClass;
 
 /***/ }),
 
@@ -24454,6 +25855,30 @@ function polyfill(Component) {
 
 
 
+
+/***/ }),
+
+/***/ "./node_modules/react-payment-icons/build/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-payment-icons/build/index.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports=function(e){var r={};function t(n){if(r[n])return r[n].exports;var a=r[n]={i:n,l:!1,exports:{}};return e[n].call(a.exports,a,a.exports,t),a.l=!0,a.exports}return t.m=e,t.c=r,t.d=function(e,r,n){t.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:n})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,r){if(1&r&&(e=t(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(t.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var a in e)t.d(n,a,function(r){return e[r]}.bind(null,a));return n},t.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(r,"a",r),r},t.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},t.p="",t(t.s=0)}([function(e,r,t){e.exports=t(1)},function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:!0});var n=l(t(2)),a=l(t(8)),o=t(11);function l(e){return e&&e.__esModule?e:{default:e}}var s=function(e){var r=e.style,t=e.className,a=e.id,l=e.transparent;return n.default.createElement("img",{src:function(e){var r=arguments.length>1&&void 0!==arguments[1]&&arguments[1];switch(e){case"adyen":return(0,o.getFlagSvgUrl)("adyen",r);case"amazon":return(0,o.getBankSvgUrls)("amazon",r);case"amex":return(0,o.getFlagSvgUrl)("amex",r);case"aura":return(0,o.getFlagSvgUrl)("aura",r);case"bin":return(0,o.getFlagSvgUrl)("bin",r);case"cirrus":return(0,o.getFlagSvgUrl)("cirrus",r);case"diners":return(0,o.getFlagSvgUrl)("diners",r);case"direct_debit":return(0,o.getFlagSvgUrl)("direct_debit",r);case"discover":return(0,o.getFlagSvgUrl)("discover",r);case"ebay":return(0,o.getFlagSvgUrl)("ebay",r);case"elo":return(0,o.getFlagSvgUrl)("elo",r);case"eway":return(0,o.getFlagSvgUrl)("eway",r);case"hipercard":return(0,o.getFlagSvgUrl)("hipercard",r);case"jcb":return(0,o.getFlagSvgUrl)("jcb",r);case"maestro":return(0,o.getFlagSvgUrl)("maestro",r);case"mastercard":return(0,o.getFlagSvgUrl)("mastercard",r);case"paypal":return(0,o.getFacilitatorSvgUrl)("paypal",r);case"sage":return(0,o.getFlagSvgUrl)("sage",r);case"shopify":return(0,o.getFlagSvgUrl)("shopify",r);case"skrill_moneybookers":return(0,o.getFlagSvgUrl)("skrill_moneybookers",r);case"skrill":return(0,o.getFlagSvgUrl)("skrill",r);case"sodexo":return(0,o.getFlagSvgUrl)("sodexo",r);case"solo":return(0,o.getFlagSvgUrl)("solo",r);case"ticket":return(0,o.getFlagSvgUrl)("ticket",r);case"visa_electron":return(0,o.getFlagSvgUrl)("visa_electron",r);case"visa":return(0,o.getFlagSvgUrl)("visa",r);case"wallet":return(0,o.getFacilitatorSvgUrl)("wallet",r);case"western":return(0,o.getFlagSvgUrl)("western",r);case"wirecard":return(0,o.getFlagSvgUrl)("wirecard",r);case"worldpay":return(0,o.getFacilitatorSvgUrl)("worldpay",r);case"applepay":return(0,o.getFacilitatorSvgUrl)("applepay",r);case"bitcoin":return(0,o.getFacilitatorSvgUrl)("bitcoin",r);case"boleto":return(0,o.getBankSvgUrls)("boleto",r);case"cielo":return(0,o.getFacilitatorSvgUrl)("cielo",r);case"ebanx":return(0,o.getFacilitatorSvgUrl)("ebanx",r);case"elavon":return(0,o.getFacilitatorSvgUrl)("elavon",r);case"firstdata":return(0,o.getFacilitatorSvgUrl)("firstdata",r);case"getnet":return(0,o.getFacilitatorSvgUrl)("getnet",r);case"global":return(0,o.getFacilitatorSvgUrl)("global",r);case"googlepay":return(0,o.getFacilitatorSvgUrl)("googlepay",r);case"iugu":return(0,o.getFacilitatorSvgUrl)("iugu",r);case"mercadopago":return(0,o.getFacilitatorSvgUrl)("mercadopago",r);case"pagarme":return(0,o.getFacilitatorSvgUrl)("pagarme",r);case"pagseguro":return(0,o.getFacilitatorSvgUrl)("pagseguro",r);case"yapay":return(0,o.getFacilitatorSvgUrl)("yapay",r);case"adiq":return(0,o.getFacilitatorSvgUrl)("adiq",r);case"rede":return(0,o.getFacilitatorSvgUrl)("rede",r);case"stone":return(0,o.getFacilitatorSvgUrl)("stone",r);case"stelo":return(0,o.getFacilitatorSvgUrl)("stelo",r);case"paghiper":return(0,o.getFacilitatorSvgUrl)("paghiper",r);case"bb":return(0,o.getBankSvgUrls)("bb",r);case"bradesco":return(0,o.getBankSvgUrls)("bradesco",r);case"caixa":return(0,o.getBankSvgUrls)("caixa",r);case"hsbc":return(0,o.getBankSvgUrls)("hsbc",r);case"itau":return(0,o.getBankSvgUrls)("itau",r);case"santander":return(0,o.getBankSvgUrls)("santander",r);default:return(0,o.getUnknownSvg)("generic",r)}}(a,l),style:r,className:t,alt:a+" payment icon"})};s.propTypes={style:a.default.object,className:a.default.string,id:a.default.string.isRequired,transparent:a.default.bool},s.defaultProps={transparent:!1,style:{},className:""},r.default=s},function(e,r,t){"use strict";e.exports=t(3)},function(e,r,t){"use strict";
+/** @license React v16.4.2
+ * react.production.min.js
+ *
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=t(4),a=t(5),o=t(6),l=t(7),s="function"==typeof Symbol&&Symbol.for,i=s?Symbol.for("react.element"):60103,c=s?Symbol.for("react.portal"):60106,u=s?Symbol.for("react.fragment"):60107,g=s?Symbol.for("react.strict_mode"):60108,f=s?Symbol.for("react.profiler"):60114,p=s?Symbol.for("react.provider"):60109,v=s?Symbol.for("react.context"):60110,d=s?Symbol.for("react.async_mode"):60111,y=s?Symbol.for("react.forward_ref"):60112;s&&Symbol.for("react.timeout");var b="function"==typeof Symbol&&Symbol.iterator;function m(e){for(var r=arguments.length-1,t="https://reactjs.org/docs/error-decoder.html?invariant="+e,n=0;n<r;n++)t+="&args[]="+encodeURIComponent(arguments[n+1]);a(!1,"Minified React error #"+e+"; visit %s for the full message or use the non-minified dev environment for full errors and additional helpful warnings. ",t)}var h={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function S(e,r,t){this.props=e,this.context=r,this.refs=o,this.updater=t||h}function _(){}function U(e,r,t){this.props=e,this.context=r,this.refs=o,this.updater=t||h}S.prototype.isReactComponent={},S.prototype.setState=function(e,r){"object"!=typeof e&&"function"!=typeof e&&null!=e&&m("85"),this.updater.enqueueSetState(this,e,r,"setState")},S.prototype.forceUpdate=function(e){this.updater.enqueueForceUpdate(this,e,"forceUpdate")},_.prototype=S.prototype;var k=U.prototype=new _;k.constructor=U,n(k,S.prototype),k.isPureReactComponent=!0;var F={current:null},w=Object.prototype.hasOwnProperty,x={key:!0,ref:!0,__self:!0,__source:!0};function O(e,r,t){var n=void 0,a={},o=null,l=null;if(null!=r)for(n in void 0!==r.ref&&(l=r.ref),void 0!==r.key&&(o=""+r.key),r)w.call(r,n)&&!x.hasOwnProperty(n)&&(a[n]=r[n]);var s=arguments.length-2;if(1===s)a.children=t;else if(1<s){for(var c=Array(s),u=0;u<s;u++)c[u]=arguments[u+2];a.children=c}if(e&&e.defaultProps)for(n in s=e.defaultProps)void 0===a[n]&&(a[n]=s[n]);return{$$typeof:i,type:e,key:o,ref:l,props:a,_owner:F.current}}function j(e){return"object"==typeof e&&null!==e&&e.$$typeof===i}var P=/\/+/g,R=[];function E(e,r,t,n){if(R.length){var a=R.pop();return a.result=e,a.keyPrefix=r,a.func=t,a.context=n,a.count=0,a}return{result:e,keyPrefix:r,func:t,context:n,count:0}}function T(e){e.result=null,e.keyPrefix=null,e.func=null,e.context=null,e.count=0,10>R.length&&R.push(e)}function $(e,r,t,n){var a=typeof e;"undefined"!==a&&"boolean"!==a||(e=null);var o=!1;if(null===e)o=!0;else switch(a){case"string":case"number":o=!0;break;case"object":switch(e.$$typeof){case i:case c:o=!0}}if(o)return t(n,e,""===r?"."+C(e,0):r),1;if(o=0,r=""===r?".":r+":",Array.isArray(e))for(var l=0;l<e.length;l++){var s=r+C(a=e[l],l);o+=$(a,s,t,n)}else if("function"==typeof(s=null===e||void 0===e?null:"function"==typeof(s=b&&e[b]||e["@@iterator"])?s:null))for(e=s.call(e),l=0;!(a=e.next()).done;)o+=$(a=a.value,s=r+C(a,l++),t,n);else"object"===a&&m("31","[object Object]"==(t=""+e)?"object with keys {"+Object.keys(e).join(", ")+"}":t,"");return o}function C(e,r){return"object"==typeof e&&null!==e&&null!=e.key?function(e){var r={"=":"=0",":":"=2"};return"$"+(""+e).replace(/[=:]/g,function(e){return r[e]})}(e.key):r.toString(36)}function B(e,r){e.func.call(e.context,r,e.count++)}function q(e,r,t){var n=e.result,a=e.keyPrefix;e=e.func.call(e.context,r,e.count++),Array.isArray(e)?A(e,n,t,l.thatReturnsArgument):null!=e&&(j(e)&&(r=a+(!e.key||r&&r.key===e.key?"":(""+e.key).replace(P,"$&/")+"/")+t,e={$$typeof:i,type:e.type,key:r,ref:e.ref,props:e.props,_owner:e._owner}),n.push(e))}function A(e,r,t,n,a){var o="";null!=t&&(o=(""+t).replace(P,"$&/")+"/"),r=E(r,o,n,a),null==e||$(e,"",q,r),T(r)}var M={Children:{map:function(e,r,t){if(null==e)return e;var n=[];return A(e,n,null,r,t),n},forEach:function(e,r,t){if(null==e)return e;r=E(null,null,r,t),null==e||$(e,"",B,r),T(r)},count:function(e){return null==e?0:$(e,"",l.thatReturnsNull,null)},toArray:function(e){var r=[];return A(e,r,null,l.thatReturnsArgument),r},only:function(e){return j(e)||m("143"),e}},createRef:function(){return{current:null}},Component:S,PureComponent:U,createContext:function(e,r){return void 0===r&&(r=null),(e={$$typeof:v,_calculateChangedBits:r,_defaultValue:e,_currentValue:e,_currentValue2:e,_changedBits:0,_changedBits2:0,Provider:null,Consumer:null}).Provider={$$typeof:p,_context:e},e.Consumer=e},forwardRef:function(e){return{$$typeof:y,render:e}},Fragment:u,StrictMode:g,unstable_AsyncMode:d,unstable_Profiler:f,createElement:O,cloneElement:function(e,r,t){(null===e||void 0===e)&&m("267",e);var a=void 0,o=n({},e.props),l=e.key,s=e.ref,c=e._owner;if(null!=r){void 0!==r.ref&&(s=r.ref,c=F.current),void 0!==r.key&&(l=""+r.key);var u=void 0;for(a in e.type&&e.type.defaultProps&&(u=e.type.defaultProps),r)w.call(r,a)&&!x.hasOwnProperty(a)&&(o[a]=void 0===r[a]&&void 0!==u?u[a]:r[a])}if(1==(a=arguments.length-2))o.children=t;else if(1<a){u=Array(a);for(var g=0;g<a;g++)u[g]=arguments[g+2];o.children=u}return{$$typeof:i,type:e.type,key:l,ref:s,props:o,_owner:c}},createFactory:function(e){var r=O.bind(null,e);return r.type=e,r},isValidElement:j,version:"16.4.2",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:F,assign:n}},N={default:M},I=N&&M||N;e.exports=I.default?I.default:I},function(e,r,t){"use strict";
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/var n=Object.getOwnPropertySymbols,a=Object.prototype.hasOwnProperty,o=Object.prototype.propertyIsEnumerable;e.exports=function(){try{if(!Object.assign)return!1;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return!1;for(var r={},t=0;t<10;t++)r["_"+String.fromCharCode(t)]=t;if("0123456789"!==Object.getOwnPropertyNames(r).map(function(e){return r[e]}).join(""))return!1;var n={};return"abcdefghijklmnopqrst".split("").forEach(function(e){n[e]=e}),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},n)).join("")}catch(e){return!1}}()?Object.assign:function(e,r){for(var t,l,s=function(e){if(null===e||void 0===e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}(e),i=1;i<arguments.length;i++){for(var c in t=Object(arguments[i]))a.call(t,c)&&(s[c]=t[c]);if(n){l=n(t);for(var u=0;u<l.length;u++)o.call(t,l[u])&&(s[l[u]]=t[l[u]])}}return s}},function(e,r,t){"use strict";e.exports=function(e,r,t,n,a,o,l,s){if(!e){var i;if(void 0===r)i=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var c=[t,n,a,o,l,s],u=0;(i=new Error(r.replace(/%s/g,function(){return c[u++]}))).name="Invariant Violation"}throw i.framesToPop=1,i}}},function(e,r,t){"use strict";e.exports={}},function(e,r,t){"use strict";function n(e){return function(){return e}}var a=function(){};a.thatReturns=n,a.thatReturnsFalse=n(!1),a.thatReturnsTrue=n(!0),a.thatReturnsNull=n(null),a.thatReturnsThis=function(){return this},a.thatReturnsArgument=function(e){return e},e.exports=a},function(e,r,t){e.exports=t(9)()},function(e,r,t){"use strict";var n=t(10);function a(){}e.exports=function(){function e(e,r,t,a,o,l){if(l!==n){var s=new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types");throw s.name="Invariant Violation",s}}function r(){return e}e.isRequired=e;var t={array:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:r,element:e,instanceOf:r,node:e,objectOf:r,oneOf:r,oneOfType:r,shape:r,exact:r};return t.checkPropTypes=a,t.PropTypes=t,t}},function(e,r,t){"use strict";e.exports="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED"},function(e,r,t){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.getFlagSvgUrl=function(e){var r=arguments.length>1&&void 0!==arguments[1]&&arguments[1]?"_transparent":"";return{adyen:n+"/adyen"+r+".svg",amex:n+"/amex"+r+".svg",aura:n+"/aura"+r+".svg",bin:n+"/bin"+r+".svg",boleto:n+"/boleto"+r+".svg",cirrus:n+"/cirrus"+r+".svg",credit_card:n+"/credit-card"+r+".svg",diners:n+"/diners"+r+".svg",direct_debit:n+"/direct_debit"+r+".svg",discover:n+"/discover"+r+".svg",ebay:n+"/ebay"+r+".svg",elo:n+"/elo"+r+".svg",eway:n+"/eway"+r+".svg",hipercard:n+"/hipercard"+r+".svg",jcb:n+"/jcb"+r+".svg",maestro:n+"/maestro"+r+".svg",mastercard:n+"/mastercard"+r+".svg",sage:n+"/sage"+r+".svg",shopify:n+"/shopify"+r+".svg",skrill:n+"/skrill"+r+".svg",skrill_moneybookers:n+"/skrill_moneybookers"+r+".svg",sodexo:n+"/sodexo"+r+".svg",solo:n+"/solo"+r+".svg",ticket:n+"/ticket"+r+".svg",visa:n+"/visa"+r+".svg",visa_electron:n+"/visa_electron"+r+".svg",western:n+"/western"+r+".svg",wirecard:n+"/wirecard"+r+".svg"}[e]},r.getBankSvgUrls=function(e){var r=arguments.length>1&&void 0!==arguments[1]&&arguments[1]?"_transparent":"";return{boleto:n+"/boleto"+r+".svg",bb:n+"/bb"+r+".svg",bradesco:n+"/bradesco"+r+".svg",caixa:n+"/caixa"+r+".svg",hsbc:n+"/hsbc"+r+".svg",itau:n+"/itau"+r+".svg",santander:n+"/santander"+r+".svg"}[e]},r.getFacilitatorSvgUrl=function(e){var r=arguments.length>1&&void 0!==arguments[1]&&arguments[1]?"_transparent":"";return{amazon:n+"/amazon"+r+".svg",adiq:n+"/adiq"+r+".svg",applepay:n+"/applepay"+r+".svg",bitcoin:n+"/bitcoin"+r+".svg",ebanx:n+"/ebanx"+r+".svg",firstdata:n+"/firstdata"+r+".svg",wallet:n+"/wallet"+r+".svg",paypal:n+"/paypal"+r+".svg",cielo:n+"/cielo"+r+".svg",global:n+"/global"+r+".svg",googlepay:n+"/googlepay"+r+".svg",iugu:n+"/iugu"+r+".svg",mercadopago:n+"/mercadopago"+r+".svg",pagarme:n+"/pagarme"+r+".svg",pagseguro:n+"/pagseguro"+r+".svg",paghiper:n+"/paghiper"+r+".png",rede:n+"/rede"+r+".svg",stelo:n+"/stelo"+r+".svg",stone:n+"/stone"+r+".svg",elavon:n+"/elavon"+r+".svg",getnet:n+"/getnet"+r+".png",worldpay:n+"/worldpay"+r+".svg",yapay:n+"/yapay"+r+".svg"}[e]},r.getUnknownSvg=function(e){var r=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return{generic:n+"/generic"+(r?"_transparent":"")+".svg"}[e]};var n="https://s3-sa-east-1.amazonaws.com/azpay-checkout/payment-methods"}]);
 
 /***/ }),
 
@@ -27331,12 +28756,12 @@ exports.classNamesShape = classNamesShape;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -40342,6 +41767,496 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./pages/aboutus/index.js":
+/*!********************************!*\
+  !*** ./pages/aboutus/index.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles2.css */ "./pages/aboutus/styles2.css");
+/* harmony import */ var _styles2_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles2_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-social-icons */ "./node_modules/react-social-icons/dist/react-social-icons.js");
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_3__);
+var _this = undefined,
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/aboutus/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+
+
+var aboutus = function aboutus() {
+  return __jsx("div", {
+    className: "outer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "wrapper2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 9
+    }
+  }, __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 13
+    }
+  }), __jsx("h2", {
+    className: "h2",
+    style: {
+      fontWeight: "bolder"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 12
+    }
+  }, " ", __jsx("center", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 62
+    }
+  }, "ABOUT THE DEVELOPERS"), " "), __jsx("div", {
+    className: "content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 12
+    }
+  }, __jsx("h3", {
+    style: {
+      fontWeight: "bold"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 16
+    }
+  }, "Talk with us! We don't just build sites, we also build long-term relationship.", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 94
+    }
+  }), "Collaborate with us today!"))), __jsx("div", {
+    className: "crd",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    "class": "row",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 18
+    }
+  }, __jsx("div", {
+    "class": "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 34
+    }
+  }, __jsx("div", {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 39
+    }
+  }, "Babu Aravind"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 41
+    }
+  }, "Developer"), __jsx("div", {
+    id: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 41
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/aravindguru33",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 49
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/babuaravind-gururaj-746a9415a/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 49
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/aravind.33",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 49
+    }
+  })))), __jsx("div", {
+    "class": "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 29
+    }
+  }, "Kashyab"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/kashyab_19",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/kashyab-m-38a440126/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/kashyab_19",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    "class": "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 29
+    }
+  }, "Sanjay"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/sanjay10898",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "http://linkedin.com/in/sanjay-kumar-b2b43a182",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/sanjaykumar10898/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    "class": "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 29
+    }
+  }, "Saran Raj"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 29
+    }
+  }, "Co-Founder"), __jsx("div", {
+    id: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "http://twitter.com/s_saran_raj",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/saran-raj-70a030119",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/saranraj_sridhar/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    "class": "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 29
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 29
+    }
+  }, "Praveen"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 29
+    }
+  }, "Product Manager"), __jsx("div", {
+    id: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 29
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/Praveen00511731",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/in/praveen-kumar-r-43393815b",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 29
+    }
+  }), ".", __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.instagram.com/praveen_spear",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 29
+    }
+  })))))), __jsx("div", {
+    id: "waultologo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 13
+    }
+  }, __jsx("center", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 17
+    }
+  }, "Contact Us At"), __jsx("div", {
+    className: "waulto-contacts",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97,
+      columnNumber: 17
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://www.linkedin.com/company/waulto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 17
+    }
+  }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    url: "https://twitter.com/Waulto1",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 17
+    }
+  }), __jsx("a", {
+    href: "mailto:waulto.ed@gmail.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 17
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    network: "mailto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 54
+    }
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (aboutus);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -40358,8 +42273,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-social-icons */ "./node_modules/react-social-icons/dist/react-social-icons.js");
 /* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var react_payment_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-payment-icons */ "./node_modules/react-payment-icons/build/index.js");
+/* harmony import */ var react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_payment_icons__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _aboutus_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./aboutus/index */ "./pages/aboutus/index.js");
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-grid-system */ "./node_modules/react-grid-system/build/index.js");
+/* harmony import */ var react_grid_system__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_grid_system__WEBPACK_IMPORTED_MODULE_7__);
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\pages\\index.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
@@ -40367,14 +42288,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
+
 var QRCode = __webpack_require__(/*! qrcode.react */ "./node_modules/qrcode.react/lib/index.js");
+
+
+
+
 
 var Index = function Index() {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 14,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -40382,7 +42308,7 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 15,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -40390,7 +42316,7 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 16,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -40399,7 +42325,7 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 17,
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -40407,7 +42333,7 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 18,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -40415,49 +42341,147 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 19,
       columnNumber: 25
     }
-  }, "Scan the QR to Donate", __jsx("div", {
+  }, __jsx("div", {
+    style: {
+      fontWeight: "bolder",
+      fontSize: "18px",
+      marginTop: ".2vh"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 28
+    }
+  }, " Scan the QR or Click Button to Donate "), __jsx("div", {
     className: "text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 21,
       columnNumber: 29
     }
   }, __jsx(QRCode, {
-    value: "http://facebook.github.io/react/",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 33
-    }
-  })))), __jsx("div", {
-    className: "footer",
+    value: "https://www.instamojo.com/@almosteverything/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 21
+      columnNumber: 33
     }
-  }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    id: "footer-text",
+  })), __jsx("div", {
+    style: {
+      paddingTop: "5vh"
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
       columnNumber: 29
     }
-  }, "Visit Us:"), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+    style: {
+      fontWeight: "bolder"
+    },
+    href: "https://www.instamojo.com/@almosteverything/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 33
+    }
+  }, "Donate us!"), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 33
+    }
+  }, __jsx("img", {
+    className: "payment",
+    src: "/payment.png",
+    style: {
+      marginTop: "2vh"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 37
+    }
+  }), __jsx(react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    id: "visa",
+    style: {
+      margin: 10,
+      width: 40
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 37
+    }
+  }), __jsx(react_payment_icons__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    id: "mastercard",
+    style: {
+      margin: 10,
+      width: 40
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 37
+    }
+  }))))), __jsx("div", {
+    className: "footer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 25
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 29
+    }
+  }, __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Col"], {
+    md: 10,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "footer-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 37
+    }
+  }, "AlmostEverything:"), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.youtube.com/almost-everything",
     fgColor: "white",
     bgColor: "black",
@@ -40465,8 +42489,8 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 29
+      lineNumber: 46,
+      columnNumber: 37
     }
   }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.instagram.com/_almost.everything/?hl=en",
@@ -40476,8 +42500,8 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 29
+      lineNumber: 47,
+      columnNumber: 37
     }
   }), __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
     url: "https://www.facebook.com/pages/category/Education-Website/Almost-Everything-356325994970583/",
@@ -40487,10 +42511,87 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 29
+      lineNumber: 48,
+      columnNumber: 37
     }
-  }))))));
+  }), __jsx("a", {
+    href: "mailto:queries.almosteverything@gmail.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 37
+    }
+  }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_3__["SocialIcon"], {
+    network: "mailto",
+    fgColor: "white",
+    bgColor: "black",
+    className: "icon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 89
+    }
+  }))), __jsx(react_grid_system__WEBPACK_IMPORTED_MODULE_7__["Col"], {
+    md: 2,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "footer-dev",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "./aboutus",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 41
+    }
+  }, "Developed By: ")), __jsx("div", {
+    className: "footerwaulto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 37
+    }
+  }, __jsx("center", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 41
+    }
+  }, __jsx("a", {
+    href: "./aboutus",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 49
+    }
+  }, __jsx("img", {
+    src: "/waulto.jpg",
+    alt: "W A U L T O",
+    width: "100",
+    height: "40",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 71
+    }
+  }))))))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -40498,13 +42599,13 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 1:
-/*!****************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Cindex.js&hotRouterUpdates=true ***!
-  \****************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Findex.js&hotRouterUpdates=true ***!
+  \*********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Cindex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Cindex.js&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Findex.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Findex.js&hotRouterUpdates=true!./");
 
 
 /***/ }),
@@ -40531,14 +42632,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_2adc2403d89adc16ead0":
+/***/ "dll-reference dll_c2e10d183b950a67d9e7":
 /*!*******************************************!*\
-  !*** external "dll_2adc2403d89adc16ead0" ***!
+  !*** external "dll_c2e10d183b950a67d9e7" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_2adc2403d89adc16ead0;
+module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 

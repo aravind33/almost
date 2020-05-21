@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -386,7 +386,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
 /* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
 /* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__);
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Header.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -460,6 +460,9 @@ const Header = () => {
       cursor: 'pointer'
     },
     className: "font-weight-bold",
+    style: {
+      fontFamily: "edo"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -467,6 +470,7 @@ const Header = () => {
       columnNumber: 11
     }
   }, _config__WEBPACK_IMPORTED_MODULE_5__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+    className: "hamburger",
     onClick: toggle,
     __self: undefined,
     __source: {
@@ -602,7 +606,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     __self: undefined,
     __source: {
@@ -627,7 +633,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: ' edo'
     },
     __self: undefined,
     __source: {
@@ -644,7 +652,9 @@ const Header = () => {
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     onClick: () => Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["signout"])(() => next_router__WEBPACK_IMPORTED_MODULE_3___default.a.replace(`/signin`)),
     __self: undefined,
@@ -679,7 +689,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Layout.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -724,7 +734,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\auth\\SigninComponent.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/auth/SigninComponent.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -744,8 +754,8 @@ const SigninComponent = () => {
     0: values,
     1: setValues
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
-    email: 'ryan@gmail.com',
-    password: 'rrrrrr',
+    email: '',
+    password: '',
     error: '',
     loading: false,
     message: '',
@@ -788,7 +798,7 @@ const SigninComponent = () => {
           if (Object(_actions_auth__WEBPACK_IMPORTED_MODULE_1__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_1__["isAuth"])().role === 1) {
             next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push(`/admin`);
           } else {
-            next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push(`/user`);
+            next_router__WEBPACK_IMPORTED_MODULE_2___default.a.push(`/blogs`);
           }
         });
       }
@@ -968,7 +978,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_render_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-render-html */ "react-render-html");
 /* harmony import */ var react_render_html__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_render_html__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _actions_blog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../actions/blog */ "./actions/blog.js");
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\blog\\Search.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/blog/Search.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2900,7 +2910,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _components_auth_SigninComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/auth/SigninComponent */ "./components/auth/SigninComponent.js");
-var _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\pages\\signin.js";
+var _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/signin.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2971,14 +2981,14 @@ const Signin = () => {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/signin.js ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\1.1.waulto\fintouch\Almost-Everything-master\frontend\pages\signin.js */"./pages/signin.js");
+module.exports = __webpack_require__(/*! /home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/signin.js */"./pages/signin.js");
 
 
 /***/ }),

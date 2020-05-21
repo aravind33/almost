@@ -37,10 +37,10 @@ const Header = () => {
       <Navbar id="header1" color="dark" light expand="md">
       <img src="/AE3.png" alt="logo" width="75" height="60" />
         <Link href="/">
-          <NavLink style={{ cursor: 'pointer' }} className="font-weight-bold">{APP_NAME}</NavLink>
+          <NavLink style={{ cursor: 'pointer' }} className="font-weight-bold" style={{fontFamily:"edo"}}>{APP_NAME}</NavLink>
         </Link>
-        <NavbarToggler onClick={toggle} />
-        <Collapse className="collapse" isOpen={isOpen} navbar>
+        <NavbarToggler className = "hamburger" onClick={toggle} />
+        <Collapse className="collapse"  isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <React.Fragment>
               <NavItem>
@@ -68,7 +68,7 @@ const Header = () => {
             {isAuth() && isAuth().role === 0 && (
               <NavItem>
                 <Link href="/user">
-                  <NavLink style={{ cursor: 'pointer' }}>{`${isAuth().name}'s Dashboard`}</NavLink>
+                  <NavLink style={{ cursor: 'pointer', color: 'white', fontFamily: 'edo'}}>{`${isAuth().name}'s Dashboard`}</NavLink>
                 </Link>
               </NavItem>
             )}
@@ -76,14 +76,14 @@ const Header = () => {
             {isAuth() && isAuth().role === 1 && (
               <NavItem>
                 <Link href="/admin">
-                  <NavLink style={{ cursor: 'pointer' }}>{`${isAuth().name}'s Dashboard`}</NavLink>
+                  <NavLink style={{ cursor: 'pointer', color: 'white', fontFamily:' edo'}}>{`${isAuth().name}'s Dashboard`}</NavLink>
                 </Link>
               </NavItem>
             )}
 
             {isAuth() && (
               <NavItem>
-                <NavLink style={{ cursor: 'pointer' }} onClick={() => signout(() => Router.replace(`/signin`))}>
+                <NavLink style={{ cursor: 'pointer', color: 'white', fontFamily: 'edo'}} onClick={() => signout(() => Router.replace(`/signin`))}>
                   Signout
                 </NavLink>
               </NavItem>

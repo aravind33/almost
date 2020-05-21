@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const SigninComponent = () => {
     const [values, setValues] = useState({
-        email: 'ryan@gmail.com',
-        password: 'rrrrrr',
+        email: '',
+        password: '',
         error: '',
         loading: false,
         message: '',
@@ -37,7 +37,7 @@ const SigninComponent = () => {
                     if (isAuth() && isAuth().role === 1) {
                         Router.push(`/admin`);
                     } else {
-                        Router.push(`/user`);
+                        Router.push(`/blogs`);
                     }
                 });
             }

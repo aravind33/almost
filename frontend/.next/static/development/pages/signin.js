@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\signin.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/signin.js"],{
 
 /***/ "./actions/auth.js":
 /*!*************************!*\
@@ -302,28 +302,31 @@ var listSearch = function listSearch(params) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
-/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config */ "./config.js");
-/* harmony import */ var _actions_auth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../actions/auth */ "./actions/auth.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! .././node_modules/nprogress/nprogress.css */ "./node_modules/nprogress/nprogress.css");
-/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
-/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
-/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_10__);
-var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Header.js";
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image */ "./node_modules/react-image/umd/index.js");
+/* harmony import */ var react_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! nprogress */ "./node_modules/nprogress/nprogress.js");
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../config */ "./config.js");
+/* harmony import */ var _actions_auth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../actions/auth */ "./actions/auth.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! .././node_modules/nprogress/nprogress.css */ "./node_modules/nprogress/nprogress.css");
+/* harmony import */ var _node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nprogress_nprogress_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _blog_Search__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./blog/Search */ "./components/blog/Search.js");
+/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../static/css/styles.css */ "./static/css/styles.css");
+/* harmony import */ var _static_css_styles_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_static_css_styles_css__WEBPACK_IMPORTED_MODULE_11__);
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var _this = undefined,
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Header.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
@@ -338,20 +341,22 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeStart = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.start();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeStart = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.start();
 };
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeComplete = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeComplete = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.done();
 };
 
-next_router__WEBPACK_IMPORTED_MODULE_3___default.a.onRouteChangeError = function (url) {
-  return nprogress__WEBPACK_IMPORTED_MODULE_4___default.a.done();
+next_router__WEBPACK_IMPORTED_MODULE_4___default.a.onRouteChangeError = function (url) {
+  return nprogress__WEBPACK_IMPORTED_MODULE_5___default.a.done();
 };
 
 var Header = function Header() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+  var _jsx;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
       isOpen = _useState[0],
       setIsOpen = _useState[1];
 
@@ -359,14 +364,14 @@ var Header = function Header() {
     setIsOpen(!isOpen);
   };
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
       columnNumber: 5
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Navbar"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Navbar"], {
     id: "header1",
     color: "dark",
     light: true,
@@ -388,7 +393,7 @@ var Header = function Header() {
       lineNumber: 38,
       columnNumber: 7
     }
-  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/",
     __self: _this,
     __source: {
@@ -396,18 +401,19 @@ var Header = function Header() {
       lineNumber: 39,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], (_jsx = {
     style: {
       cursor: 'pointer'
     },
-    className: "font-weight-bold",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 11
-    }
-  }, _config__WEBPACK_IMPORTED_MODULE_5__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavbarToggler"], {
+    className: "font-weight-bold"
+  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "style", {
+    fontFamily: "edo"
+  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", _this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
+    fileName: _jsxFileName,
+    lineNumber: 40,
+    columnNumber: 11
+  }), _jsx), _config__WEBPACK_IMPORTED_MODULE_6__["APP_NAME"])), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavbarToggler"], {
+    className: "hamburger",
     onClick: toggle,
     __self: _this,
     __source: {
@@ -415,7 +421,7 @@ var Header = function Header() {
       lineNumber: 42,
       columnNumber: 9
     }
-  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Collapse"], {
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Collapse"], {
     className: "collapse",
     isOpen: isOpen,
     navbar: true,
@@ -425,7 +431,7 @@ var Header = function Header() {
       lineNumber: 43,
       columnNumber: 9
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Nav"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
     className: "ml-auto",
     navbar: true,
     __self: _this,
@@ -434,21 +440,21 @@ var Header = function Header() {
       lineNumber: 44,
       columnNumber: 11
     }
-  }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  }, __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/blogs",
     __self: _this,
     __source: {
@@ -456,7 +462,7 @@ var Header = function Header() {
       lineNumber: 47,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -467,21 +473,21 @@ var Header = function Header() {
       lineNumber: 48,
       columnNumber: 19
     }
-  }, "Blogs")))), !Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
+  }, "Blogs")))), !Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54,
       columnNumber: 15
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55,
       columnNumber: 17
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/signin",
     __self: _this,
     __source: {
@@ -489,7 +495,7 @@ var Header = function Header() {
       lineNumber: 56,
       columnNumber: 19
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -500,14 +506,14 @@ var Header = function Header() {
       lineNumber: 57,
       columnNumber: 21
     }
-  }, "Signin"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "Signin"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60,
       columnNumber: 17
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/signup",
     __self: _this,
     __source: {
@@ -515,7 +521,7 @@ var Header = function Header() {
       lineNumber: 61,
       columnNumber: 19
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
       cursor: 'pointer'
     },
@@ -526,14 +532,14 @@ var Header = function Header() {
       lineNumber: 62,
       columnNumber: 21
     }
-  }, "Signup")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().role === 0 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "Signup")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().role === 0 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/user",
     __self: _this,
     __source: {
@@ -541,9 +547,11 @@ var Header = function Header() {
       lineNumber: 70,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     __self: _this,
     __source: {
@@ -551,14 +559,14 @@ var Header = function Header() {
       lineNumber: 71,
       columnNumber: 19
     }
-  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().role === 1 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().role === 1 && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77,
       columnNumber: 15
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/admin",
     __self: _this,
     __source: {
@@ -566,9 +574,11 @@ var Header = function Header() {
       lineNumber: 78,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: ' edo'
     },
     __self: _this,
     __source: {
@@ -576,20 +586,22 @@ var Header = function Header() {
       lineNumber: 79,
       columnNumber: 19
     }
-  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["isAuth"])() && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavItem"], {
+  }, "".concat(Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])().name, "'s Dashboard")))), Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["isAuth"])() && __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85,
       columnNumber: 15
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
     style: {
-      cursor: 'pointer'
+      cursor: 'pointer',
+      color: 'white',
+      fontFamily: 'edo'
     },
     onClick: function onClick() {
-      return Object(_actions_auth__WEBPACK_IMPORTED_MODULE_6__["signout"])(function () {
-        return next_router__WEBPACK_IMPORTED_MODULE_3___default.a.replace("/signin");
+      return Object(_actions_auth__WEBPACK_IMPORTED_MODULE_7__["signout"])(function () {
+        return next_router__WEBPACK_IMPORTED_MODULE_4___default.a.replace("/signin");
       });
     },
     __self: _this,
@@ -598,7 +610,7 @@ var Header = function Header() {
       lineNumber: 86,
       columnNumber: 17
     }
-  }, "Signout"))))), __jsx(_blog_Search__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, "Signout"))))), __jsx(_blog_Search__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -625,7 +637,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\Layout.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/Layout.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -674,7 +686,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\auth\\SigninComponent.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/auth/SigninComponent.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -690,8 +702,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 var SigninComponent = function SigninComponent() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({
-    email: 'ryan@gmail.com',
-    password: 'rrrrrr',
+    email: '',
+    password: '',
     error: '',
     loading: false,
     message: '',
@@ -735,7 +747,7 @@ var SigninComponent = function SigninComponent() {
           if (Object(_actions_auth__WEBPACK_IMPORTED_MODULE_2__["isAuth"])() && Object(_actions_auth__WEBPACK_IMPORTED_MODULE_2__["isAuth"])().role === 1) {
             next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push("/admin");
           } else {
-            next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push("/user");
+            next_router__WEBPACK_IMPORTED_MODULE_3___default.a.push("/blogs");
           }
         });
       }
@@ -926,7 +938,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\components\\blog\\Search.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/components/blog/Search.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -5995,12 +6007,12 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -6016,10 +6028,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Csignin.js&hotRouterUpdates=true!./":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Csignin.js&hotRouterUpdates=true ***!
-  \*******************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Fsignin.js&hotRouterUpdates=true!./":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Fsignin.js&hotRouterUpdates=true ***!
+  \************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20756,12 +20768,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -21396,12 +21408,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -22455,12 +22467,12 @@ module.exports.convert = convert;
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -25131,12 +25143,12 @@ exports.classNamesShape = classNamesShape;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -38156,7 +38168,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _components_auth_SigninComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/auth/SigninComponent */ "./components/auth/SigninComponent.js");
 var _this = undefined,
-    _jsxFileName = "D:\\1.1.waulto\\fintouch\\Almost-Everything-master\\frontend\\pages\\signin.js";
+    _jsxFileName = "/home/aravind33/Visual-studio/Project 1/fintouch/frontend/pages/signin.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -38240,25 +38252,25 @@ var Signin = function Signin() {
 /***/ }),
 
 /***/ 8:
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsignin&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Csignin.js&hotRouterUpdates=true ***!
-  \***********************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fsignin&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Fsignin.js&hotRouterUpdates=true ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsignin&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Csignin.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=D%3A%5C1.1.waulto%5Cfintouch%5CAlmost-Everything-master%5Cfrontend%5Cpages%5Csignin.js&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsignin&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Fsignin.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignin&absolutePagePath=%2Fhome%2Faravind33%2FVisual-studio%2FProject%201%2Ffintouch%2Ffrontend%2Fpages%2Fsignin.js&hotRouterUpdates=true!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_2adc2403d89adc16ead0":
+/***/ "dll-reference dll_c2e10d183b950a67d9e7":
 /*!*******************************************!*\
-  !*** external "dll_2adc2403d89adc16ead0" ***!
+  !*** external "dll_c2e10d183b950a67d9e7" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_2adc2403d89adc16ead0;
+module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 

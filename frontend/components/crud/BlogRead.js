@@ -43,17 +43,17 @@ const BlogRead = () => {
     };
 
     const showUpdateButton = blog => {
-        if(isAuth() &&  isAuth().role === 0) {
-            return(
-                <Link href = {`/user/crud/${blog.slug}`}>
-                    <a className="btn btn-sm btn-warning">Update</a>    
-                </Link>
-            );
-        }
-        else if(isAuth() && isAuth().role === 1) {
+        // if(isAuth() &&  isAuth().role === 0) {
+        //     return(
+        //         <Link href = {`/user/crud/${blog.slug}`}>
+        //             <a className="btn btn-sm btn-warning">Update</a>    
+        //         </Link>
+        //     );
+        // }
+         if(isAuth() && isAuth().role === 1) {
             return(
                 <Link href = {`/admin/crud/${blog.slug}`}>
-                    <a className="ml-3 btn btn-sm btn-warning">Update</a>
+                    <a className="ml-3 btn btn-sm btn-warning" style={{fontFamily:"arial"}}>Update</a>
                 </Link>
             );
         }

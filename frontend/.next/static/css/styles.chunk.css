@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none;
@@ -99,7 +100,8 @@
         background-color:	#f9d342 ;
     }
     a{
-        font-family: 'Edo', arial;
+        /* font-family: 'Edo', arial; */
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         color: black;
     }
     a:hover{
@@ -118,6 +120,21 @@
         color: black;
         border-color: black;
 
+    }
+    .btn-outline-primary {
+        background-color: white;
+        color: black;
+        border-color: black;
+    }
+    .btn-outline-primary:hover {
+        font-weight: 500;
+        background-color: #f9d342 ;
+        color: black;
+    }
+
+    .btn-load {
+        border-color: black;
+        font-weight: bolder;
     }
 
     .card-text{
@@ -233,32 +250,54 @@
   }
 
 
+  .hamburger {
+      background-color: white;
+  }
+
+  .collapse {
+    text-align: center;
+}
 
 
+.footerwaulto {
+    margin-top: 1vh;
+    text-align: center;
+}
 
   .footer {
     background-color: rgb(175, 173, 173);  
     bottom: 0;
     width: 100%; 
-    /* z-index: 1;  */
     position:absolute;
-    height:15vh;
 }
 
 .icon {
     margin-bottom: 1%;
-    margin-left: 22%;
+    margin-left: 2vh;
     margin-top: 1%;
 }
-
-#footer-text {
+.footer-dev {
     text-align: center;
     color: rgb(5, 5, 5);
     font-weight:bolder;
+    margin-left: 8vh;
+}
+
+.footerwaulto {
+    margin-left: 8vh;
+}
+
+.footer-text {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-weight:bolder;
+    margin-right: 102vh;
 }
 
 .text {
     text-align: center;
+    /* margin-top: 2.5vh; */
+    padding-top: 2vh;
 }
 
 
@@ -266,7 +305,7 @@
     position: relative;
     min-height: 100vh;
     height:100%;
-    /* padding-bottom: 58px; */
+    padding-bottom: 10vh;
   }
   
 #content-wrap {
@@ -284,14 +323,16 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    margin-top: 11vh;
+    margin-bottom: 2vh;
 }
 
 .form-wrapper {
-    margin-bottom: 75px;
+    margin-bottom: 10vh;
     width: 400px;
     display: flex;
     flex-direction: column;
-    padding: 25px 30px 80px 40px;
+    padding: 25px 30px 60px 40px;
     border-radius: 15px;
     box-shadow: 0px 10px 50px #555;
     background-color: #ffffff;
@@ -303,11 +344,30 @@
 .index-logo {
     margin-top: 20px;
     width:  100%;
-    height: 600px;
+    height: 500px;
     background-size: cover;
 }
   
   @media only screen and (max-width: 600px) {
+
+    .form {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-bottom: 7vh;
+        margin-top: 20vh;
+    }
+
+    .footer-text {
+        text-align: center;
+        color: rgb(5, 5, 5);
+        font-weight:bolder;
+        margin-right: 13vh;
+    }
 
     .footer {
         background-color: rgb(175, 173, 173);  
@@ -315,7 +375,7 @@
         width: 100%; 
         /* z-index: 1;  */
         position:absolute;
-        height:15vh;
+        /* height:15vh; */
         text-align: center;
     }
     .form-wrapper {
@@ -333,7 +393,7 @@
         }
     .icon {
         margin-bottom: 1%;
-        margin-left: auto;
+        margin-left: 1vh;
         margin-top: 1%;
     }
     .index-logo {
@@ -341,6 +401,25 @@
         height: 10%;
         background-size: cover;
         
+    }
+    .hamburger {
+        background-color: white;
+        transform: translateX(22vh)
+    }
+    .footer-text {
+        text-align: center;
+        color: rgb(5, 5, 5);
+        font-weight:bolder;
+        margin-left: 14vh;
+    }
+    .footerwaulto {
+        margin-left: 1vh;
+    }
+    .footer-dev {
+        text-align: center;
+        color: rgb(5, 5, 5);
+        font-weight:bolder;
+        margin-left: 1vh;
     }
   }
 
@@ -353,6 +432,8 @@
         justify-content: center;
         align-items: center;
         background-color: white;
+        margin-top: 9vh;
+        margin-bottom: 16vh;
     }
     
     .footer {
@@ -360,13 +441,20 @@
         bottom: 0;
         width: 100%; 
         position:absolute;
-        height:25vh;
+        /* height:25vh; */
     }
 
     .icon {
         margin-bottom: 1%;
-        margin-left: 19%;
+        margin-left: 13%;
         margin-top: 1%;
+    }
+
+    .footer-text {
+        text-align: center;
+        color: rgb(5, 5, 5);
+        font-weight:bolder;
+        margin-left: 55vh;
     }
   }
 
@@ -382,8 +470,112 @@
 /* .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #fdcc0d !important
 } */
-#container-id{
-    font-family:Arial, Helvetica, sans-serif;
+.h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 50;
 }
+
+.content{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: whitesmoke;
+}
+
+body{
+    /* background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%); */
+    /* background-color: black; */
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+.crd{
+    padding-top: 13%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*contact us foorter*/
+  .waulto-contacts {
+    margin-left: 42%;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .waulto-contacts {
+      margin-left: 22%;
+    }
+  }
+
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .waulto-contacts {
+      margin-left: 17%;
+    }
+  } 
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: transform .2s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+  a{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+  }
+  #icon{
+      margin-left: 1%;
+      
+  }
+  #waultologo{
+      padding: 27px;
+      /* padding: 70px; */
+      /* bottom: 0; */
+  }
+  .wrapper2 {
+    text-align: center;
+  }
+
+  .outer {
+    background: linear-gradient(to bottom, black 0%,black 40%,#000000 50%,white 50%,white 100%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+  }
 
 /*# sourceMappingURL=styles.chunk.css.map*/

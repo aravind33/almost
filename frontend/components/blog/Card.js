@@ -55,7 +55,6 @@ const Card = ({ blog }) => {
                 <div className="col-md-8">
                     <section>
                         {/* <div className="pb-3">{renderHTML(blog.excerpt)}</div> */}
-                        {/* <div dangerouslySetInnerHTML={{__html: blog.excerpt}}></div> */}
                         <div className="card-text">{striptags(blog.excerpt)}</div>
                         <Link href={`/blogs/${blog.slug}`}>
                             <a className="btn btn-read pt-2">Read more</a>

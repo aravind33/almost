@@ -4,7 +4,6 @@
 
 .h2{
     color: white;
-   
     font-family: 'Roboto', sans-serif;
     font-weight: 50;
 }
@@ -18,7 +17,7 @@
 }
 
 body{
-    background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%);
+    /* background: linear-gradient(to bottom, black 0%,black 50%,#000000 50%,white 50%,white 100%); */
     /* background-color: black; */
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -53,6 +52,10 @@ body{
     display: table;
     clear: both;
   }
+  /*contact us foorter*/
+  .waulto-contacts {
+    margin-left: 42%;
+  }
   
   /* Responsive columns */
   @media screen and (max-width: 600px) {
@@ -61,7 +64,16 @@ body{
       display: block;
       margin-bottom: 20px;
     }
+    .waulto-contacts {
+      margin-left: 22%;
+    }
   }
+
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .waulto-contacts {
+      margin-left: 17%;
+    }
+  } 
   
   /* Style the counter cards */
   .card {
@@ -79,12 +91,21 @@ body{
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 300;
   }
-  .icon{
+  #icon{
       margin-left: 1%;
       
   }
-  .logo{
-      padding: 26px;
+  #waultologo{
+      padding: 27px;
       /* padding: 70px; */
       /* bottom: 0; */
+  }
+  .wrapper2 {
+    text-align: center;
+  }
+
+  .outer {
+    background: linear-gradient(to bottom, black 0%,black 40%,#000000 50%,white 50%,white 100%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
   }
