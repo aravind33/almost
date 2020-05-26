@@ -12,6 +12,16 @@
     object-fit: cover;
 }
 
+.share-btn > a {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+}
+.share-btn > a:hover {
+    cursor: pointer;
+}
+
 .btn-primary {
     font-weight: 500;
      background-color: #292826;

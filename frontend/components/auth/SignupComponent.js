@@ -50,7 +50,6 @@ const SignupComponent = () => {
     const showLoading = () => (loading ? <div className="alert alert-info">Loading...</div> : '');
     const showError = () => (error ? <div className="alert alert-danger">{error}</div> : '');
     const showMessage = () => (message ? <div className="alert alert-info">{message}</div> : '');
-
     const signupForm = () => {
         return (
             <div className="wrapper">

@@ -114,9 +114,9 @@ const SingleBlog = ({ blog, query }) => {
                             <div className="row">{showRelatedBlog()}</div>
                         </div>
 
-                        <div className="container pb-5">
+                        {/* <div className="container pb-5">
                             <p>show comments</p>
-                        </div>
+                        </div> */}
                     </article>
                 </main>
             </Layout>

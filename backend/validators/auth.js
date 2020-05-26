@@ -9,8 +9,9 @@ exports.userSignupValidator = [
         .isEmail()
         .withMessage('Must be a valid email address'),
     check('password')
-        .isLength({ min: 6 })
-        .withMessage('Password must be at least 6 characters long')
+        .matches(/^(?=.*[0-9])(?=.*[- ?!@#$%^&*\/\\])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9- ?!@#$%^&*\/\\]{8,}$/) 
+        .withMessage('Password must be at least 6 characters long and must contain atleast one Upper case,lower case,numeric and special character')
+        
 ];
 
 exports.userSigninValidator = [
@@ -18,8 +19,8 @@ exports.userSigninValidator = [
         .isEmail()
         .withMessage('Must be a valid email address'),
     check('password')
-        .isLength({ min: 6 })
-        .withMessage('Password must be at least 6 characters long')
+        .matches(/^(?=.*[0-9])(?=.*[- ?!@#$%^&*\/\\])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9- ?!@#$%^&*\/\\]{8,}$/)
+        .withMessage('Enter valid password')
 ];
 
 exports.forgotPasswordValidator = [
@@ -34,6 +35,6 @@ exports.resetPasswordValidator = [
     check('newPassword')
         .not()
         .isEmpty()
-        .isLength({ min: 6 })
-        .withMessage('Password must be at least 6 characters long')
+        .matches(/^(?=.*[0-9])(?=.*[- ?!@#$%^&*\/\\])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9- ?!@#$%^&*\/\\]{8,}$/)
+        .withMessage('Password must be at least 6 characters long and must contain atleast one Upper case,lower case,numeric and special character')
 ];

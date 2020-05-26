@@ -10,7 +10,7 @@ import { API, DOMAIN, APP_NAME, FB_APP_ID } from '../../config';
 const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, router }) => {
     const head = () => (
         <Head>
-            <title>Programming blogs | {APP_NAME}</title>
+            <title>Almost Everything | {APP_NAME}</title>
             <meta
                 name="description"
                 content="Programming blogs and tutorials on react node next vue php laravel and web developoment"
@@ -106,7 +106,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
                         <header>
                             <div className="col-md-12 pt-3">
                                 <h1 className="display-4 font-weight-bold text-center">
-                                    Programming blogs and tutorials
+                                    Almost Everything Blog
                                 </h1>
                             </div>
                             <section>
