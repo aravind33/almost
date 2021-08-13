@@ -21,7 +21,7 @@
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.2.1",
     "moment": "^2.25.3",
-    "next": "^9.3.6",
+    "next": "^11.1.0",
     "next-images": "^1.4.0",
     "nprogress": "^0.2.0",
     "paymentfont": "^1.2.5",
